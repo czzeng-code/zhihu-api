@@ -24,7 +24,7 @@ public interface SpecialMapper {
 
     /**
      * 查询所有专题
-     * @return
+     * @return List<Map>
      */
     @Select("SELECT * FROM t_special ")
     @Results({
